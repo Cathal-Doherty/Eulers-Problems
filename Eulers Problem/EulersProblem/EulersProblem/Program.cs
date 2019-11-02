@@ -10,7 +10,7 @@ namespace EulersProblem
     {
         static void Main(string[] args)
         {
-
+            Prob3();
 
             Console.ReadLine();
         }
@@ -29,6 +29,7 @@ namespace EulersProblem
             Console.WriteLine("sum total: {0}", sum);
         }
 
+        //Even Fibonacci numbers
         static void Prob2()
         {
             int[] arr = new int[1000000];
@@ -50,7 +51,7 @@ namespace EulersProblem
             Console.Write(s);
             Console.Read();
         }
-
+        //Largest prime factor
         static void Prob3()
         {
             int a, b;
